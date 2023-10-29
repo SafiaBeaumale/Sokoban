@@ -1,6 +1,6 @@
 # Sokoban - Un jeu de magasinier !
 
-<img src="https://static.appvn.com/a/uploads/thumbnails/052017/sokoban-collection_icon.png" height=60 align="left">
+<img src="https://play-lh.googleusercontent.com/W_Fihnd7M7RoHap-TGDpxQbuHBr001LqZ5CvV8RPZIWBZk5ep0wD9olmaa6lsjDfINA" height=60 align="left">
 <p>Le Sokoban est un jeu de réflexion et de logique, d’origine japonaise, qui se joue sur ordinateur.</p>
 <p>Le jeu consiste à ranger des objets à l’intérieur d’un entrepôt, en les poussant pour les amener sur des emplacements marqués au sol.
 Pour cela, il faut ce déplacer dans l’entrepôt avec les flèches du clavier.</p>
