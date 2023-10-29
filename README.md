@@ -15,7 +15,7 @@ Pour cela, il faut ce déplacer dans l’entrepôt avec les flèches du clavier.
 <div align="center">
   <p><b>DESCRIPTION :</b></p>
   <p>&#8251 Développez une copie de ce jeu en mode terminal.</p>
-  <p>&#8251 Utilisation la bibliothèque ncurses.</p>
+  <p>&#8251 Utilisation de la bibliothèque ncurses.</p>
   <p>&#8251 Si toutes les cases sont sur des emplacements de stockage, le joueur gagne.</p>
 </div>
 <br></br>
