@@ -5,8 +5,8 @@
 ** my_player_move.c
 */
 
-#include "include/sokoban.h"
-#include "include/my.h"
+#include "../../include/sokoban.h"
+#include "../../include/my.h"
 
 int *my_key_up(int *p_position, int key, int x, int y)
 {

@@ -5,8 +5,8 @@
 ** my_game.c
 */
 
-#include "include/sokoban.h"
-#include "include/my.h"
+#include "../../include/sokoban.h"
+#include "../../include/my.h"
 
 int my_game(char *my_tab, int *p_position)
 {

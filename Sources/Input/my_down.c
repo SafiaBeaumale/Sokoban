@@ -5,8 +5,8 @@
 ** my_down.c
 */
 
-#include "include/sokoban.h"
-#include "include/my.h"
+#include "../../include/sokoban.h"
+#include "../../include/my.h"
 
 int *my_down_condition(int *p_position, int x, int y)
 {

@@ -5,8 +5,8 @@
 ** my_up.c
 */
 
-#include "include/sokoban.h"
-#include "include/my.h"
+#include "../../include/sokoban.h"
+#include "../../include/my.h"
 
 int *my_up_condition(int *p_position, int x, int y)
 {

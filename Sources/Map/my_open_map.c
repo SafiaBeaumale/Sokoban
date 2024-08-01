@@ -5,17 +5,18 @@
 ** my_open_map.c
 */
 
-#include "include/sokoban.h"
-#include "include/my.h"
+#include "../../include/sokoban.h"
+#include "../../include/my.h"
 
 char *my_open_map(char const *filepath)
 {
     struct stat st;
-
     int folder = open(filepath, O_RDONLY);
+    char *buffer;
+
     if (stat(filepath, &st) == -1)
         exit(84);
-    char *buffer = malloc(sizeof(char) * st.st_size + 1);
+    buffer = malloc(sizeof(char) * st.st_size + 1);
     for (int i = 0; buffer[i] != '\0'; i++) {
         if (buffer[i] != ' ' && buffer[i] != '\n' && buffer[i] != '#'
         && buffer[i] != 'X' && buffer[i] != 'P' && buffer[i] != 'O')

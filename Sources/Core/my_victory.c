@@ -5,8 +5,8 @@
 ** my_victory.c
 */
 
-#include "include/sokoban.h"
-#include "include/my.h"
+#include "../../include/sokoban.h"
+#include "../../include/my.h"
 
 int *my_check_victory(int *p_position)
 {

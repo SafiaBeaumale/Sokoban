@@ -5,18 +5,20 @@
 ## Makefile
 ##
 
-SRC =	main.c	\
-		my_help.c	\
-		my_sokoban.c	\
-		my_open_map.c	\
-		my_position.c	\
-		my_game.c	\
-		my_player_move.c	\
-		my_up.c	\
-		my_down.c	\
-		my_left.c	\
-		my_right.c	\
-		my_victory.c	\
+SRC =	Sources/Core/main.c	\
+			Sources/Core/my_game.c	\
+			Sources/Core/my_sokoban.c	\
+			Sources/Core/my_victory.c	\
+			Sources/Input/my_down.c	\
+			Sources/Input/my_left.c	\
+			Sources/Input/my_player_move.c	\
+			Sources/Input/my_position.c	\
+			Sources/Input/my_right.c	\
+			Sources/Input/my_up.c	\
+			Sources/Map/my_open_map.c	\
+			Sources/Map/my_resize.c	\
+			Sources/Utilities/my_error.c	\
+			Sources/Utilities/my_help.c	\
 
 OBJ = $(SRC:.c=.o)
 

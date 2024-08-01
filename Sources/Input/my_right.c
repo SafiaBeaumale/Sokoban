@@ -5,8 +5,8 @@
 ** my_direction.c
 */
 
-#include "include/sokoban.h"
-#include "include/my.h"
+#include "../../include/sokoban.h"
+#include "../../include/my.h"
 
 int *my_right_condition(int *p_position, int x, int y)
 {

@@ -8,12 +8,19 @@
 #ifndef SOKOBAN_H_
     #define SOKOBAN_H_
 
+    #define MIN_ROWS 10
+    #define MIN_COLS 30
+
     #include <unistd.h>
     #include <stdlib.h>
+    #include <string.h>
     #include <sys/types.h>
     #include <sys/stat.h>
     #include <fcntl.h>
     #include <ncurses.h>
+    #include <signal.h>
+
+extern char *current_map;
 
 // === main.c === //
 int main(int argc, char **argv);
@@ -26,6 +33,10 @@ int my_sokoban(char *my_tab);
 
 //=== my_open_map.c === //
 char *my_open_map(char const *filepath);
+
+// === my_resize.c === //
+void handle_resize(int sig);
+void redraw_map(void);
 
 // === my_position.c === //
 int *my_player_position(char *tab);
@@ -46,7 +57,7 @@ int *my_up_condition(int *p_position, int x, int y);
 int *my_down(int *p_position);
 int *my_down_condition(int *p_position, int x, int y);
 int *my_left(int *p_position);
-int *my_left_condition(int * p_position, int x, int y);
+int *my_left_condition(int *p_position, int x, int y);
 int *my_right(int *p_position);
 int *my_right_condition(int *p_position, int x, int y);
 

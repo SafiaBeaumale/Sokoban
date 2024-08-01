@@ -5,8 +5,8 @@
 ** my_error.c
 */
 
-#include "include/sokoban.h"
-#include "include/my.h"
+#include "../../include/sokoban.h"
+#include "../../include/my.h"
 
 void my_error(int number)
 {

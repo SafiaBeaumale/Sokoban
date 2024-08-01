@@ -8,7 +8,6 @@
 #ifndef MY_H_
     #define MY_H_
 
-// === my_lib === //
 int my_put_nbr(int nb);
 void my_putchar(char c);
 int my_putstr(char const *str);

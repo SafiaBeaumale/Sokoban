@@ -5,8 +5,8 @@
 ** my_position.c
 */
 
-#include "include/sokoban.h"
-#include "include/my.h"
+#include "../../include/sokoban.h"
+#include "../../include/my.h"
 
 int *my_player_position(char *my_tab)
 {
